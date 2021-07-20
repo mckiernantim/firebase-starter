@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+# Firebase Auth with Google and React Context API   
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project will walk you through the steps to set up User Authentiaction via Google sign in using Firebase, React and React Context.  
 
-## Available Scripts
+## What is Firebase?
+Firebase is whats known as  a BAAS, or Back End As A Service, for creating mobile and web applications. It was originally an independent company founded in 2011.In 2014, Google acquired the platformand it is now their flagship offering for app development. Its primary features include a Realtime noSQL database, and user authentication.
 
-In the project directory, you can run:
+### What's So Special About it?
+Firebase user Authentication is a streamlined, secure way to integrate multiple different sign in methods to our applications including Facebook, Google, Github, Twitter and more.  Additionally, Firebase provides analytics and a database functionality out of the box.  
+
+In short - it's a powerful tool to help set up complex backend tasks in our applicaiton.
+
+### How will this work?
+To setup firebase on our apps we will need to perform the following:
+* Signup for a Firebase account
+* Set up a Create-React-App
+* Register an applicaition on Firebase
+* Enable Firebase Authentication
+* Download our App credientials from Firebase to our `.env`
+* Install Firebase via NPM
+* Set up our React Context to provide auth data to components
+* Set up route guards to allow  ONLY authenticated users acces
+* Handle user logout
+
+
+## Getting started
+
+
 
 ### `npm start`
 
